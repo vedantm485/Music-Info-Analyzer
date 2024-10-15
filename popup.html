@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Info Analyzer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 300px;
+      padding: 20px;
+      background-color: #282c34; /* Dark background */
+      color: #ffffff; /* Light text color */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    }
+    h3 {
+      color: #61dafb; /* Bright accent color */
+      margin-bottom: 10px;
+      text-align: center; /* Centered title */
+    }
+    .info {
+      background-color: #3c4043; /* Slightly lighter background for the info box */
+      border: 1px solid #4a4a4a; /* Border color */
+      border-radius: 6px; /* Rounded corners */
+      padding: 15px; /* Padding for the info box */
+      text-align: center; /* Center text in info box */
+    }
+    .info div {
+      margin: 8px 0; /* Spacing between details */
+      font-size: 14px; /* Font size for info */
+    }
+  </style>
+</head>
+<body>
+  <div id="song-details">
+    <h3>Currently Playing:</h3>
+    <div id="info" class="info">Loading...</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
